@@ -112,7 +112,6 @@ while True:
             milk = milk + milk_fill
             beans = beans + beans_fill
             cups = cups + cups_fill
-            money = money + 0
 
         else:
             print("wrong key")
@@ -122,10 +121,6 @@ while True:
         t = int(input("enter the key"))
         if t == 1906:
             print('I gave you $' + str(money))
-            water = water + 0
-            milk = milk + 0
-            beans = beans + 0
-            cups = cups + 0
             money = 0
 
         else:
